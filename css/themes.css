@@ -1,0 +1,39 @@
+/* CSS Custom Properties for Theming */
+:root {
+    /* Light theme colors */
+    --primary-color: #2563eb;
+    --primary-hover: #1d4ed8;
+    --secondary-color: #64748b;
+    --bg-color: #ffffff;
+    --bg-secondary: #f8fafc;
+    --text-color: #1e293b;
+    --text-muted: #64748b;
+    --border-color: #e2e8f0;
+    --shadow: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark theme colors */
+[data-theme="dark"] {
+    --primary-color: #60a5fa;
+    --primary-hover: #3b82f6;
+    --secondary-color: #94a3b8;
+    --bg-color: #0f172a;
+    --bg-secondary: #1e293b;
+    --text-color: #f1f5f9;
+    --text-muted: #94a3b8;
+    --border-color: #334155;
+    --shadow: rgba(0, 0, 0, 0.3);
+}
+
+/* High contrast theme */
+[data-theme="high-contrast"] {
+    --primary-color: #ffff00;
+    --primary-hover: #ffff00;
+    --secondary-color: #ffffff;
+    --bg-color: #000000;
+    --bg-secondary: #000000;
+    --text-color: #ffffff;
+    --text-muted: #ffffff;
+    --border-color: #ffffff;
+    --shadow: rgba(255, 255, 255, 0.1);
+}

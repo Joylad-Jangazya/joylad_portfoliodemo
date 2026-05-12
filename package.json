@@ -1,0 +1,31 @@
+{
+  "name": "joylad-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Joylad Jangazya",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/joylad-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "web-development",
+    "responsive",
+    "accessibility"
+  ],
+  "author": "Joylade Jangazya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/joylad-portfolio/issues"
+  },
+  "homepage": "https://yourusername.github.io/joylad-portfolio",
+  "devDependencies": {
+    "serve": "^14.2.0",
+    "gh-pages": "^5.0.0"
+  }
+}
