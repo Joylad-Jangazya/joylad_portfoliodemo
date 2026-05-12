@@ -522,6 +522,13 @@ a:focus {
     color: var(--text-muted);
 }
 
+.footer p {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .footer-nav {
     display: flex;
     justify-content: center;
