@@ -112,6 +112,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Contact
 
 Joylade Jangazya
-- Email: joylade@example.com
+- Email: joyladjangazya@example.com
 - LinkedIn: [Your LinkedIn Profile]
 - GitHub: [Your GitHub Profile]
